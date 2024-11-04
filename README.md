@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **Instalaciones, equipos y herramientas para el desposte**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_63510034_DESPOSTE_CORTES_CANALES_BOVINO/#/](https://ecored-sena.github.io/CF2_63510034_DESPOSTE_CORTES_CANALES_BOVINO/#/)
 
 #
 
