@@ -65,6 +65,8 @@
   background-color: $color-sistema-p
 .fondo-color-sistema-q
   background-color: $color-sistema-q
+.fondo-color-sistema-r
+  background-color: $color-sistema-r
 .fondo-color-primario
   background-color: $color-primario
 .fondo-color-acento-contenido
@@ -179,6 +181,10 @@
   &.f4
     &:before
       background-image: url(../assets/curso/temas/39.png)
+  &.f5
+    &:before
+      background: rgb(233,247,239)
+      background: linear-gradient(180deg, rgba(233,247,239,0) 0%, rgba(233,247,239,1) 25%, rgba(233,247,239,1) 75%, rgba(239,250,244,0.03125) 100%)
   &__contenido
     position: relative
 
@@ -277,6 +283,15 @@
 .tabla-b
   &.dis-p-1
     border-bottom: 2px solid #707070
+  &.dis-p-3
+    tbody
+      td
+        text-align: left
+    td,th
+      padding: 12px 22px
+  &.dis-p-4
+    td,th
+      padding: 12px 20px
   &.dis-p-2
     table
       min-width: auto

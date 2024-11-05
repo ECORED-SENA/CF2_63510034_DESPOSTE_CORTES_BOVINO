@@ -739,7 +739,53 @@
       .col-lg-6.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 505px;")
+    
+    .titulo-decorativo.my-5
+      .cont-figura
+        img(src="@/assets/curso/temas/img-tit-dec.svg")
+      .cont-text 
+        h3 Peso de la canal
+    
+    p.mb-4 Para determinar el peso de la canal, se deben seguir ciertos estándares, entre los cuales destacan los siguientes:
 
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .borde-3.fondo-color-sistema-j.p-4.px-md-5.h-100.align-content-center
+          .bg-white.borde-5.p-3.p-md-2.mb-4
+            .row.align-items-center
+              .col-md-auto
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 74px;")
+              .col
+                p.mb-0 La canal debe estar libre de estructuras como riñones, ubre y órganos viriles.
+          .bg-white.borde-5.p-3.p-md-2.mb-4
+            .row.align-items-center
+              .col-md-auto
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 74px;")
+              .col
+                p.mb-0 Debe estar desprovista de grasa interna, incluyendo la grasa renal, escrotal, pélvica y abdominal.
+          .bg-white.borde-5.p-3.p-md-2.mb-0
+            .row.align-items-center
+              .col-md-auto
+                figure.mb-4.mb-md-0
+                  img.mx-auto(src="@/assets/curso/temas/49.svg",style="max-width: 74px;")
+              .col
+                p.mb-0 La canal debe ser pesada en estado frío.
+      
+      .col-lg-4.align-content-center.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/50.svg",style="max-width: 400px;")
+    
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/51.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4.py-lg-5
+        h4.mb-0 Manejo de las canales en el centro de despiece
+        br
+        br
+        p.mb-0 Una vez que las canales ingresan al centro de despiece, deben seguir estándares que garanticen su inocuidad, ya que desde este punto son consideradas un alimento. Uno de los parámetros clave para mantener la calidad de la carne es la #[b refrigeración], la cual depende de varios factores que se analizarán posteriormente. 
 
       
 </template>
