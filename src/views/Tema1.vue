@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 La canal
     
-    p.mb-4 Es el cuerpo del animal sacrificado, desangrado, #[b desollado, eviscerado, sin cabeza ni extremidades]. La canal es el producto primario, un paso intermedio en la producción de carne, que representa el producto final.
+    p.mb-4(data-aos="fade-up") Es el cuerpo del animal sacrificado, desangrado, #[b desollado, eviscerado, sin cabeza ni extremidades]. La canal es el producto primario, un paso intermedio en la producción de carne, que representa el producto final.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-5.pe-lg-0
         .fondo-color-sistema-j.p-4.h-100.align-content-center
           .fig-dec-1.tam-1.mb-4
@@ -21,12 +21,12 @@
         figure
           img.mx-auto(src="@/assets/curso/temas/6.png")
     
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 1.1 Medias canales
     
-    p.mb-4 Después de completar los pasos previos, la canal se divide en dos partes iguales mediante un corte longitudinal a lo largo de la línea media de la columna vertebral, obteniendo así dos medias canales de un bovino para facilitar su manipulación.
+    p.mb-4(data-aos="fade-up") Después de completar los pasos previos, la canal se divide en dos partes iguales mediante un corte longitudinal a lo largo de la línea media de la columna vertebral, obteniendo así dos medias canales de un bovino para facilitar su manipulación.
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-up")
       .col-lg-5
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/7.png",style="max-width: 440px;")
@@ -52,15 +52,15 @@
               .bg-white.borde-5.py-1.px-2
                 p.mb-0 #[i.fas.fa-check-circle.c-color-sistema-k.texto-p-1] Residuos gástricos.
     
-    .titulo-decorativo.my-5.mt-3.mb-4
+    .titulo-decorativo.my-5.mt-3.mb-4(data-aos="fade-up")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Cuartos de canal
     
-    p.mb-4 Cada media canal se corta en dos cuartos mediante un corte a la altura de la duodécima vértebra, obteniendo así un cuarto delantero y un cuarto trasero.
+    p.mb-4(data-aos="fade-up") Cada media canal se corta en dos cuartos mediante un corte a la altura de la duodécima vértebra, obteniendo así un cuarto delantero y un cuarto trasero.
 
-    TabsC.color-acento-contenido.tabsc-p-1
+    TabsC.color-acento-contenido.tabsc-p-1(data-aos="fade-up")
       .row.justify-content-center.align-items-center.py-5(titulo="Cuarto delantero")
         .col-lg-5
           figure.mb-4.mb-lg-0
@@ -78,12 +78,12 @@
     
     Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 1.2 Componentes de la canal
     
-    p.mb-4 La canal bovina está formada por tres componentes básicos: muscular, óseo y adiposo.
+    p.mb-4(data-aos="fade-up") La canal bovina está formada por tres componentes básicos: muscular, óseo y adiposo.
 
-    .fondo-personalizado-1.f2(data-aos="flip-up")
+    .fondo-personalizado-1.f2(data-aos="fade-up")
       .fondo-personalizado-1__contenido.py-5
         .bg-white.p-4.borde-20
           SlyderA.slider-personalizado-1.pt-lg-3(tipo="b")
@@ -152,12 +152,12 @@
     
     Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-up")
       h2 1.3 Parámetros que se usan para evaluar la calidad de una canal
     
-    p.mb-4 Los parámetros empleados para evaluar la calidad de una canal se agrupan en dos grandes categorías. En primer lugar, están los #[b parámetros cualitativos], que son más fáciles de apreciar por los consumidores, y en segundo lugar, los #[b parámetros cuantitativos], que permiten evaluar la canal en términos de valor económico.
+    p.mb-4(data-aos="fade-up") Los parámetros empleados para evaluar la calidad de una canal se agrupan en dos grandes categorías. En primer lugar, están los #[b parámetros cualitativos], que son más fáciles de apreciar por los consumidores, y en segundo lugar, los #[b parámetros cuantitativos], que permiten evaluar la canal en términos de valor económico.
 
-    .row
+    .row(data-aos="fade-up")
       .col-lg-4.mb-4.mb-lg-0.align-content-center
         figure
           img.mx-auto(src="@/assets/curso/temas/15.png",style="max-width: 400px;")
@@ -210,13 +210,13 @@
                   i.fas.fa-check-circle.c-color-sistema-k.texto-p-1
                   span Cantidad de carne
     
-    .titulo-decorativo.my-4
+    .titulo-decorativo.my-4(data-aos="fade-up")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Sistema de clasificación de canales para Colombia
     
-    .row.mb-4
+    .row.mb-4(data-aos="fade-up")
       .col-lg-6
         p.mb-4 El método adoptado por el Ministerio de Agricultura de Colombia desde 1995 es el #[b Sistema ICTA] de clasificación de canales y cortes de carne bovina. Este sistema, desarrollado por el Instituto de Ciencia y Tecnología de Alimentos en colaboración con la Universidad Nacional y el SENA, clasifica las canales en cinco categorías, otorgando #[b cinco estrellas] a las de mayor calidad y una estrella a las de menor calidad.
 
@@ -266,7 +266,7 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/18.png")
     
-    .row.mb-4
+    .row.mb-4(data-aos="fade-up")
       .col-lg-3
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 295px;")
@@ -320,11 +320,11 @@
                 td 0, 1, 2, 3
                 td Cualquiera
     
-    p.mb-4 Las características que deben cumplir las canales de acuerdo al Sistema ICTA.
+    p.mb-4(data-aos="fade-up") Las características que deben cumplir las canales de acuerdo al Sistema ICTA.
     
     .fondo-personalizado-1.size-full.med.pos-bottom.f3
       .fondo-personalizado-1__contenido.pb-4
-        .fondo-personalizado-1.f2.mb-4
+        .fondo-personalizado-1.f2.mb-4(data-aos="fade-up")
           .fondo-personalizado-1__contenido.py-5
             .bg-white.borde-20.p-4.pb-5
               PasosB.pasos-personalizado-1
@@ -459,11 +459,11 @@
                         figcaption.fondo-color-sistema-i.text-center.py-1
                           span.texto-p-2 Nota. Frigobandeira (2018).
         
-        p.mb-4 Los parámetros a tener en cuenta en la evaluación de canales son:
+        p.mb-4(data-aos="fade-up") Los parámetros a tener en cuenta en la evaluación de canales son:
 
-        h3.borde-20.fondo-color-sistema-p.d-inline-flex.mb-4.py-2.px-4 Edad
+        h3.borde-20.fondo-color-sistema-p.d-inline-flex.mb-4.py-2.px-4(data-aos="fade-up") Edad
 
-        .row
+        .row(data-aos="fade-up")
           .col-lg-4.mb-4.mb-lg-0
             p.mb-0 La edad se puede determinar de dos formas en la canal. Una de ellas es la #[b dentición], que permite identificar la edad del animal a través del estado de sus piezas dentales. Sin embargo, cuando se examina la canal sin la cabeza, y por ende sin las piezas dentales, se utiliza la #[b osificación] como el método alternativo para estimar la edad.
           .col-lg-8
@@ -479,22 +479,22 @@
                         img.mx-auto(src="@/assets/curso/temas/30.svg")
                   p.mb-0 La osificación se refiere al análisis de los cartílagos en diversas zonas del cuerpo, como el esternón, la sínfisis púbica, las vértebras lumbares y el sacro. Particularmente, las #[b estérnebras] del esternón son de las más utilizadas para este propósito. A medida que el animal envejece, también es común notar otros cambios, como el color amarillento de la grasa.
     
-    h3.borde-20.fondo-color-sistema-p.d-inline-flex.mb-5.py-2.px-4 Cantidad de cartílago
+    h3.borde-20.fondo-color-sistema-p.d-inline-flex.mb-5.py-2.px-4(data-aos="fade-up") Cantidad de cartílago
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/32.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La cantidad de cartílago presente en la canal también es un indicador de la edad del animal. Animales jóvenes presentan más cartílago, mientras que en los animales mayores, este se osifica. 
     
-    h3.borde-20.fondo-color-sistema-p.d-inline-flex.mb-4.py-2.px-4 Medición de la cantidad de cartílago de las estérnebras
+    h3.borde-20.fondo-color-sistema-p.d-inline-flex.mb-4.py-2.px-4(data-aos="fade-up") Medición de la cantidad de cartílago de las estérnebras
 
     .fondo-personalizado-1.size-full.f4
       .fondo-personalizado-1__contenido
-        p.mb-4 Para medir la cantidad de cartílago de las estérnebras, se utilizan los puntos #[b CAR 1], #[b CAR 2] y #[b CAR 3], según el sistema ICTA:
+        p.mb-4(data-aos="fade-up") Para medir la cantidad de cartílago de las estérnebras, se utilizan los puntos #[b CAR 1], #[b CAR 2] y #[b CAR 3], según el sistema ICTA:
 
-        .row.justify-content-center.mb-2
+        .row.justify-content-center.mb-2(data-aos="fade-up")
           .col-lg-4.col-md-6.mb-4
             .sombra-p-1.borde-11.overflow-hidden
               .text-center.p-4.pt-lg-5
@@ -529,9 +529,9 @@
                   figcaption.fondo-color-sistema-j.text-center.py-1
                     span.texto-p-2.fw-normal Nota. Gómez, Palacios & Maldonado (1995, p. 19)
         
-        p.mb-4 Estas mediciones permiten obtener una evaluación precisa de la osificación y, por tanto, de la edad del animal.
+        p.mb-4(data-aos="fade-up") Estas mediciones permiten obtener una evaluación precisa de la osificación y, por tanto, de la edad del animal.
 
-        .row.align-items-center
+        .row.align-items-center(data-aos="fade-up")
           .col-lg-5
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/36.png",style="max-width: 505px;")
@@ -558,15 +558,15 @@
                     td 0.0 - 0.5
                     td 0.0 - 0.3
         
-    .titulo-decorativo.my-5
+    .titulo-decorativo.my-5(data-aos="fade-up")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Parámetros de osificación según el color de las estructuras óseas
     
-    p.mb-4 A medida que el animal envejece, los patrones de osificación experimentan cambios en la coloración. En animales jóvenes, las estructuras óseas tienden a ser más oscuras, mientras que en animales adultos, estas adquieren una tonalidad amarillenta clara. Este cambio en la coloración es uno de los indicadores clave para determinar la madurez fisiológica del animal.
+    p.mb-4(data-aos="fade-up") A medida que el animal envejece, los patrones de osificación experimentan cambios en la coloración. En animales jóvenes, las estructuras óseas tienden a ser más oscuras, mientras que en animales adultos, estas adquieren una tonalidad amarillenta clara. Este cambio en la coloración es uno de los indicadores clave para determinar la madurez fisiológica del animal.
 
-    .row.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center(data-aos="fade-up")
       .col-lg-4
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/37.png",style="max-width: 400px;")
@@ -578,11 +578,11 @@
         figcaption.py-1
           span.texto-p-2 Nota. Gómez, Palacios & Maldonado (1995, p. 19)
     
-    h3.borde-20.fondo-color-sistema-p.d-inline-flex.my-5.py-2.px-4 Conformación de la canal
+    h3.borde-20.fondo-color-sistema-p.d-inline-flex.my-5.py-2.px-4(data-aos="fade-up") Conformación de la canal
 
-    p.mb-4 La conformación de la canal se refiere al desarrollo muscular en relación con la estructura ósea. Para evaluarla, se consideran factores como:
+    p.mb-4(data-aos="fade-up") La conformación de la canal se refiere al desarrollo muscular en relación con la estructura ósea. Para evaluarla, se consideran factores como:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-lg-5
         .fondo-color-sistema-j.p-4.px-md-5.borde-19.h-100
           .bg-white.py-1.px-3.borde-5.mb-2
@@ -597,9 +597,9 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/40.png")
     
-    p.mb-5 Una mejor conformación indica un mayor potencial de aprovechamiento en términos de producción de carne y un mayor tamaño de los cortes obtenidos. Los métodos para calcular la conformación de la canal son:
+    p.mb-5(data-aos="fade-up") Una mejor conformación indica un mayor potencial de aprovechamiento en términos de producción de carne y un mayor tamaño de los cortes obtenidos. Los métodos para calcular la conformación de la canal son:
     
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-lg-4.col-md-10.mb-4
         .fondo-color-sistema-j.h-100
           figure.mb-4.mb-lg-0
@@ -615,7 +615,7 @@
             p.mb-4.fw-bold Método objetivo
             p.mb-0 Consiste en medir el perímetro de la pierna, tomando como referencia el contorno del músculo semitendinoso. Los valores se expresan en las categorías: Excelente, Bueno, Regular e Inferior.
     
-    .row.justify-content-center.pt-1
+    .row.justify-content-center.pt-1(data-aos="fade-up")
       .col-lg-6.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 3.] Patrones de conformación de la canal bovina
@@ -644,15 +644,15 @@
             img(src="@/assets/curso/temas/43.svg",style="max-width: 196px;")
           p.mb-0 Este análisis permite determinar la calidad de la canal y su potencial para la producción de carne.
     
-    .titulo-decorativo.my-4
+    .titulo-decorativo.my-4(data-aos="fade-up")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Acabado de la canal
     
-    p.mb-4 El #[b grado de acabado] de la canal se mide principalmente a través de la #[b grasa de cobertura], que se evalúa tomando el espesor de la grasa dorsal en una canal refrigerada. Esta medida se realiza en dos puntos clave del dorso de la canal, y se expresa en centímetros.
+    p.mb-4(data-aos="fade-up") El #[b grado de acabado] de la canal se mide principalmente a través de la #[b grasa de cobertura], que se evalúa tomando el espesor de la grasa dorsal en una canal refrigerada. Esta medida se realiza en dos puntos clave del dorso de la canal, y se expresa en centímetros.
 
-    TabsC.color-acento-contenido.tabsc-p-1
+    TabsC.color-acento-contenido.tabsc-p-1(data-aos="fade-up")
       .row.justify-content-center.align-items-center.py-5(titulo="Cuarto delantero")
         .col-lg-5
           .fondo-color-sistema-q.p-1
@@ -676,19 +676,19 @@
           h4.mb-3 Grado de acabado 2 (G2)
           p.mb-0 Se localiza en la parte más sobresaliente del hueso sacro, a siete centímetros del corte longitudinal por donde se ha dividido la canal.
 
-    .titulo-decorativo.my-5.mb-4
+    .titulo-decorativo.my-5.mb-4(data-aos="fade-up")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Patrones de acabado de la canal bovina
     
-    p.mb-4 El acabado de la canal bovina se clasifica en una escala que va del 0 al 3:
+    p.mb-4(data-aos="fade-up") El acabado de la canal bovina se clasifica en una escala que va del 0 al 3:
 
     .row.align-items-center
       .col-lg-6
         .row.justify-content-center.mb-4
           .col-lg-7
-            .fondo-color-sistema-i.borde-3.p-4
+            .fondo-color-sistema-i.borde-3.p-4(data-aos="fade-up")
               .bg-white.borde-5.mb-2
                 .d-flex.py-1.px-2
                   .borde-3.fondo-color-acento-contenido.d-inline-flex.me-2
@@ -705,9 +705,9 @@
                     span.fw-bold.text-center(style="min-width: 30px;") 3
                   p.mb-0 Acabado regular.
     
-        p.mb-4 Esta clasificación permite identificar la cantidad y distribución de la grasa en la canal, un factor esencial para determinar su calidad final. Estos patrones se explican a continuación:
+        p.mb-4(data-aos="fade-up") Esta clasificación permite identificar la cantidad y distribución de la grasa en la canal, un factor esencial para determinar su calidad final. Estos patrones se explican a continuación:
 
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-up")
           .col-lg-9
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 4.] Patrones de acabado de la canal bovina
@@ -737,19 +737,19 @@
                     td > 1.2
       
       .col-lg-6.order-first.order-lg-last
-        figure.mb-4.mb-lg-0
+        figure.mb-4.mb-lg-0(data-aos="fade-up")
           img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 505px;")
     
-    .titulo-decorativo.my-5
+    .titulo-decorativo.my-5(data-aos="fade-up")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Peso de la canal
     
-    p.mb-4 Para determinar el peso de la canal, se deben seguir ciertos estándares, entre los cuales destacan los siguientes:
+    p.mb-4(data-aos="fade-up") Para determinar el peso de la canal, se deben seguir ciertos estándares, entre los cuales destacan los siguientes:
 
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         .borde-3.fondo-color-sistema-j.p-4.px-md-5.h-100.align-content-center
           .bg-white.borde-5.p-3.p-md-2.mb-4
             .row.align-items-center
@@ -773,11 +773,11 @@
               .col
                 p.mb-0 La canal debe ser pesada en estado frío.
       
-      .col-lg-4.align-content-center.order-first.order-lg-last
+      .col-lg-4.align-content-center.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/50.svg",style="max-width: 400px;")
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="fade")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/51.png')})`}"
       )
