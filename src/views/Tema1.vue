@@ -187,7 +187,7 @@
                   span Jugosidad
       .col-lg-4
         .fondo-color-sistema-n.p-3.borde-2.h-100.align-content-center
-          p.fw-bold.mb-3 Parámetros cualitativos (Características que interesan al consumidor)
+          p.fw-bold.mb-3 Parámetros cuantitativos (Características que interesan al comerciante)
           .row.align-items-center
             .col-lg-5.pe-lg-0
               figure.mb-4.mb-lg-0
@@ -574,7 +574,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1.] Madurez fisiológica
         figure.mb-2
-          img.mx-auto(src="@/assets/curso/temas/38.png")
+          img.mx-auto(src="@/assets/curso/temas/38.png",alt="La imagen presenta  tres cortes de carne que representan diferentes etapas de madurez fisiológica: joven, maduro y viejo. Cada corte presenta variaciones en la textura, color y apariencia del músculo y la grasa, que permiten identificar la edad del animal en el momento del sacrificio. Estas diferencias son importantes para determinar la calidad y uso del producto cárnico.")
         figcaption.py-1
           span.texto-p-2 Nota. Gómez, Palacios & Maldonado (1995, p. 19)
     

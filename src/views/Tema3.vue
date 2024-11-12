@@ -147,15 +147,6 @@
           li.d-flex.mb-0
             i.fas.fa-check-circle.c-color-sistema-k.texto-p-1
             span Lavamanos mural de acción con cadera
-          li.d-flex.mb-0
-            i.fas.fa-check-circle.c-color-sistema-k.texto-p-1
-            span Lavamanos de pedal
-          li.d-flex.mb-0
-            i.fas.fa-check-circle.c-color-sistema-k.texto-p-1
-            span Lavamanos con fotocelda
-          li.d-flex.mb-0
-            i.fas.fa-check-circle.c-color-sistema-k.texto-p-1
-            span Lavamanos mural de acción con cadera
       .col-lg-6.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/64.png",style="max-width: 610px;")
