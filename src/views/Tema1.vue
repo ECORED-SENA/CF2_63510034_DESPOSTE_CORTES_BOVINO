@@ -210,62 +210,61 @@
                   i.fas.fa-check-circle.c-color-sistema-k.texto-p-1
                   span Cantidad de carne
     
-    .titulo-decorativo.my-4(data-aos="fade-up")
-      .cont-figura
-        img(src="@/assets/curso/temas/img-tit-dec.svg")
-      .cont-text 
-        h3 Sistema de clasificación de canales para Colombia
+
     
-    .row.mb-4(data-aos="fade-up")
+    .row.my-5(data-aos="fade-up")
       .col-lg-6
+        .titulo-decorativo.my-4(data-aos="fade-up")
+          .cont-figura
+            img(src="@/assets/curso/temas/img-tit-dec.svg")
+          .cont-text 
+            h3 Sistema de clasificación de canales para Colombia      
         p.mb-4 El método adoptado por el Ministerio de Agricultura de Colombia desde 1995 es el #[b Sistema ICTA] de clasificación de canales y cortes de carne bovina. Este sistema, desarrollado por el Instituto de Ciencia y Tecnología de Alimentos en colaboración con la Universidad Nacional y el SENA, clasifica las canales en cinco categorías, otorgando #[b cinco estrellas] a las de mayor calidad y una estrella a las de menor calidad.
 
-        .row.justify-content-center
-          .col-lg-4.mb-4
-            .fondo-color-sistema-o.p-2.borde-5.h-100.align-content-center
-              .row.align-items-center
-                .col-md-auto
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/temas/19.svg",style="max-width: 62px;")
-                .col
-                  p.mb-0 Edad.
-          .col-lg-4.mb-4
-            .fondo-color-sistema-o.p-2.borde-5.h-100.align-content-center
-              .row.align-items-center
-                .col-md-auto
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/temas/20.svg",style="max-width: 62px;")
-                .col
-                  p.mb-0 Sexo.
-          .col-lg-4.mb-4
-            .fondo-color-sistema-o.p-2.pe-lg-0.borde-5.h-100.align-content-center
-              .row.align-items-center
-                .col-auto.col-lg-4.pe-lg-0
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/temas/21.svg",style="max-width: 62px;")
-                .col-8
-                  p.mb-0 Conformación de la canal.
-          .col-lg-4.mb-4
-            .fondo-color-sistema-o.p-2.pe-lg-0.borde-5.h-100.align-content-center
-              .row.align-items-center
-                .col-md-auto
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 62px;")
-                .col
-                  p.mb-0 Grado de acabado.
-          .col-lg-6.mb-4
-            .fondo-color-sistema-o.p-2.pe-lg-0.borde-5.h-100.align-content-center
-              .row.align-items-center
-                .col-auto.col-lg-4.pe-lg-0
-                  figure.mb-4.mb-md-0
-                    img.mx-auto(src="@/assets/curso/temas/23.svg",style="max-width: 62px;")
-                .col
-                  p.mb-0 Peso de la canal fría (P.C.F.)
+                                           
          
       .col-lg-6.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/18.png")
     
+    .row.justify-content-center
+      .col-lg-4.my-3
+        .fondo-color-sistema-o.p-3.borde-5.h-100.j1.mov-center
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              img.img-a.img-t(src='@/assets/curso/temas/19.svg' alt='')
+            .col.pt-lg-0.pt-md-4
+              p.mb-0 Edad.
+      .col-lg-4.my-3
+        .fondo-color-sistema-o.p-3.borde-5.h-100.j1.mov-center
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              img.img-a.img-t(src='@/assets/curso/temas/20.svg' alt='')
+            .col.pt-lg-0.pt-md-4
+              p.mb-0 Sexo.
+      .col-lg-4.my-3
+        .fondo-color-sistema-o.p-3.borde-5.h-100.j1.mov-center
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              img.img-a.img-t(src='@/assets/curso/temas/21.svg' alt='')
+            .col.pt-lg-0.pt-md-4
+              p.mb-0 Conformación de la canal.
+    .row.justify-content-center.mb-5                  
+      .col-lg-4.my-3
+        .fondo-color-sistema-o.p-3.borde-5.h-100.j1.mov-center
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              img.img-a.img-t(src='@/assets/curso/temas/22.svg' alt='')
+            .col.pt-lg-0.pt-md-4
+              p.mb-0 Grado de acabado.
+      .col-lg-4.my-3
+        .fondo-color-sistema-o.p-3.borde-5.h-100.j1.mov-center
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              img.img-a.img-t(src='@/assets/curso/temas/23.svg' alt='')
+            .col.pt-lg-0.pt-md-4
+              p.mb-0 Peso de la canal fría (P.C.F.)    
+
     .row.mb-4(data-aos="fade-up")
       .col-lg-3
         figure.mb-4.mb-lg-0
@@ -543,9 +542,9 @@
                 thead
                   tr
                     th Edad
-                    th CAR 1 (cms)
-                    th CAR 2 (cms)
-                    th CAR 3 (cms)
+                    th CAR 1 (cm)
+                    th CAR 2 (cm)
+                    th CAR 3 (cm)
                 tbody
                   tr
                     td 2 y 3 años
@@ -653,7 +652,7 @@
     p.mb-4(data-aos="fade-up") El #[b grado de acabado] de la canal se mide principalmente a través de la #[b grasa de cobertura], que se evalúa tomando el espesor de la grasa dorsal en una canal refrigerada. Esta medida se realiza en dos puntos clave del dorso de la canal, y se expresa en centímetros.
 
     TabsC.color-acento-contenido.tabsc-p-1(data-aos="fade-up")
-      .row.justify-content-center.align-items-center.py-5(titulo="Cuarto delantero")
+      .row.justify-content-center.align-items-center.py-5(titulo="Grado de acabado 1 (G1)")
         .col-lg-5
           .fondo-color-sistema-q.p-1
             .bg-white.pt-1
@@ -664,7 +663,7 @@
         .col-lg-6.order-first.order-lg-last.mb-4.mb-lg-0
           h4.mb-3 Grado de acabado 1 (G1)
           p.mb-0 Se mide entre la séptima y octava vértebra torácica, a un centímetro del borde del corte longitudinal que divide la canal en dos partes. 
-      .row.justify-content-center.align-items-center.py-5(titulo="Cuarto delantero")
+      .row.justify-content-center.align-items-center.py-5(titulo="Grado de acabado 2 (G2)")
         .col-lg-5
           .fondo-color-sistema-q.p-1
             .bg-white.pt-1
@@ -716,8 +715,8 @@
                 thead
                   tr
                     th Grado
-                    th G1 (cms)
-                    th G2 (cms)
+                    th G1 (cm)
+                    th G2 (cm)
                 tbody
                   tr
                     td 0

@@ -123,39 +123,24 @@ export default {
   },
   complementario: [
     {
-      tema: 'La canal.',
-      referencia:
-        'Asturianavalles. (2011).Características de la Canal y de la Carne (ASEAVA). [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=PVPhN4LYVaw&ab_channel=asturianavalles',
-    },
-    {
       tema: 'Medias canales.',
       referencia:
-        'TVMÁS. (2017). Veracruz Agropecuario - El Canal Bovino, rendimiento y cortes. [Archivo de video] Youtube.',
+        'TVMÁS. (2017). Veracruz Agropecuario - El Canal Bovino, rendimiento y cortes. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=GFbKOROEtas&ab_channel=TVM%C3%81S',
     },
     {
       tema: 'Parámetros que se usan para evaluar la calidad de una canal.',
       referencia:
-        'agriNews Play. (2019). AGRICONSEJO - IMPORTANCIA de la calidad de la CANAL ‼️',
+        'AgriNews Play. (2019). AGRICONSEJO - IMPORTANCIA de la calidad de la CANAL !! [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=TBewCC1juTo&ab_channel=agriNewsPlay',
     },
     {
-      tema: 'Factores para mantener una buena refrigeración.',
-      referencia:
-        'TvAgro. (2017). Sistemas de Producción de Carne- TvAgro por Juan Gonzalo Angel. [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Avii-ABc-Ps&ab_channel=TvAgro',
-    },
-    {
       tema: 'Instalaciones y centros de despiece.',
       referencia:
-        'Ecosistema de Recursos Educativos. (2019). Limpieza de botas. [Archivo de video] Youtube.',
+        'Ecosistema de Recursos Educativos. (2019). Limpieza de botas. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=cEaqXw_U9Xs&ab_channel=EcosistemadeRecursosEducativos',
@@ -163,7 +148,7 @@ export default {
     {
       tema: 'Instalaciones y centros de despiece.',
       referencia:
-        'Ecosistema de Recursos Educativos. (2019). Higiene de manos.  [Archivo de video] Youtube.',
+        'Ecosistema de Recursos Educativos. (2019). Higiene de manos.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=Vyb5zddLbFI&ab_channel=EcosistemadeRecursosEducativos',
